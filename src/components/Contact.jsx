@@ -29,7 +29,7 @@ export default function Contact() {
         setSending(true)
 
         // Aquí, reemplaza con tus credenciales de EmailJS
-        emailjs.sendForm('service_ivz9yti', 'template_b2hvu5s', e.target, 'bUKDZYhdQc21oPIrB')
+        emailjs.sendForm('service_mlj01pa', 'template_jj4fuow', e.target, 'bUKDZYhdQc21oPIrB')
             .then((result) => {
                 console.log('Resultado: ', result.text)
                 setSent(true)
